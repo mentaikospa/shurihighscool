@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首里高校-お問い合わせ</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b62f62c8b7.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/hover-image.js"></script>
+</head>
+
+<body>
+    <div id="contact" class="page">
+        <header>
+            <div class="header-top">
+                <div class="sns">
+                    <ul>
+                        <p>公式SNS</p>
+                        <li class="twitter"><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram-square"></i></a></li>
+                    </ul>
+                </div>
+                <h1><a href="/" class="hvr-grow"><img src="image/logo.png" alt="沖縄県立首里高等学校"></a></h1>
+                <div class="empty"></div>
+            </div>
+            <div class="header-line"></div>
+            <div class="header-bottom">
+                <nav>
+                    <ul>
+                        <li><a href="/"><img src="image/home-button.png" alt="ホーム" class="hover-image"></a></li>
+                        <li><a href="about.html"><img src="image/about-button.png" alt="学校紹介" class="hover-image"></a>
+                        </li>
+                        <li><a href=""><img src="image/course-button.png" alt="学科案内" class="hover-image"></a></li>
+                        <li><a href=""><img src="image/career-button.png" alt="進路状況" class="hover-image"></a></li>
+                        <li><a href="contact.html"><img src="image/contact-button.png" alt="お問い合わせ"
+                                    class="hover-image"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="content">
+            <main>
+                <h2>お問い合わせ</h2>
+                <section class="card">
+                    <h3 class="section-titles">電話でのお問い合わせ</h3>
+                    <div class="tell">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>098-885-0028</p>
+                    </div>
+                    <p class="uketsuke">※受付時間：9:00～18:00まで<br>
+                        ※おかけ間違いのないようお願いいたします。</p>
+                </section>
+                <section>
+                    <h3 class="section-titles">メールでのお問い合わせ</h3>
+                    <caption>
+                        <ul>
+                            <li>お問い合わせの際は「個人情報保護方針」をお読みになり、同意のうえご記入ください。</li>
+                            <li>電話番号欄には、必ず連絡の取れる電話番号（自宅もしくは携帯電話）をご入力ください。</li>
+                            <li>回答に時間がかかる場合がありますので、お急ぎの方はお電話にてお問い合わせください。</li>
+                        </ul>
+                    </caption>
+                </section>
+                <form action="">
+                    <table>
+                        <tr>
+                            <th>お名前 <strong>※必須</strong></th>
+                            <td><input type="text" name="名前" required>例）山田太郎</td>
+                        </tr>
+                        <tr>
+                            <th>フリガナ <strong>※必須</strong><br>
+                                <span>(カタカナ)</span>
+                            </th>
+                            <td><input type="text" name="名前" required>例）ヤマダタロウ</td>
+                        </tr>
+                        <tr class="postal-code">
+                            <th>郵便番号</th>
+                            <td><input type="number" name="郵便番号"> - <input type="number"
+                                    name="郵便番号"><span>例）900-0000</span></td>
+                        </tr>
+                        <tr>
+                            <th>都道府県</th>
+                            <td><select name="pref" id="pref">
+                                    <option value="沖縄">沖縄</option>
+                                    <option value="沖縄県外">沖縄県外</option>
+                                    <option value="海外">海外</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <th>市区町村</th>
+                            <td><input type="text" name="市区町村" class="text-long"></td>
+                        </tr>
+                        <tr>
+                            <th>番地・マンション</th>
+                            <td><input type="text" name="番地・マンション名" class="text-long"></td>
+                        </tr>
+                        <tr>
+                            <th>電話番号 <strong>※必須</strong></th>
+                            <td><input type="text" name="tel" required>例）09812345678</td>
+                        </tr>
+                        <tr>
+                            <th>FAX番号</th>
+                            <td><input type="text" name="FAX番号">例）09812345678</td>
+                        </tr>
+                        <tr>
+                            <th>メールアドレス</th>
+                            <td><input type="email" name="mail" class="text-long"><br>
+                                <input type="email" name="mail" class="text-long"><br>
+                                ※確認のため再入力
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>ご希望の返信先</th>
+                            <td><input type="radio" name="ご希望の返信先" value="電話">電話
+                                <input type="radio" name="ご希望の返信先" value="メール">メール
+                                <input type="radio" name="ご希望の返信先" value="FAX">FAX
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">内容 <strong>※必須</strong></th>
+                            <td><textarea name="内容" required></textarea></td>
+                        </tr>
+                    </table>
+                    <p class="form-button"><button type="submit">確認画面へ</button></p>
+                </form>
+                <p class="back-top scroll-fade"><a href="#top"><i class="fas fa-chevron-up"></i><br>
+                        トップへ</a></p>
+            </main>
+            <aside>
+                <div class="banner">
+                    <a href=""><img src="image/banner-nyugaku.png" alt="入学案内"></a>
+                </div>
+                <div class="banner">
+                    <a href=""><img src="image/banner-bukatsu.png" alt="部活動情報"></a>
+                </div>
+                <div class="banner-last">
+                    <a href=""><img src="image/banner-instagram.png" alt="インスタグラムで学生の様子を配信中"></a>
+                </div>
+                <div class="access">
+                    <h4>アクセス</h4>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.2992127766424!2d127.71117831503045!3d26.219465683431018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e56bfd24be94a9%3A0xea94856b1ccceaf3!2z5rKW57iE55yM56uL6aaW6YeM6auY562J5a2m5qCh!5e0!3m2!1sja!2sjp!4v1634188336453!5m2!1sja!2sjp"
+                        width="270" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <p>沖縄県立 首里高等学校</p>
+                    <p>〒903-0816　沖縄県那覇市首里真和志町2丁目43番地</p>
+                    <p>TEL : 098-885-0028<br>
+                        FAX : 098-884-3442</p>
+                </div>
+            </aside>
+        </div>
+        <footer>
+            <div class="footer-top">
+                <div class="left">
+                    <ul>
+                        <li><a href="/">ホーム</a></li>
+                        <li><a href="about.html">学校紹介</a></li>
+                        <li><a href="">学科案内</a></li>
+                        <li><a href="">進路状況</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </div>
+                <div class="left">
+                    <ul>
+                        <li><a href="">お知らせ</a></li>
+                        <li><a href="">会社概要</a></li>
+                        <li><a href="">アクセスマップ</a></li>
+                        <li><a href="">サイトポリシー</a></li>
+                    </ul>
+                </div>
+                <div class="footer-logo">
+                    <img src="image/logo-footer.png" alt="首里高等学校">
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="">入試情報</a></li>
+                        <li><a href="">募集要項・選抜要項</a></li>
+                        <li><a href="">入試データ</a></li>
+                        <li><a href="">学部入試情報</a></li>
+                        <li><a href="">入試Q＆A</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="">学校生活</a></li>
+                        <li><a href="">授業・カリキュラム</a></li>
+                        <li><a href="">入学案内</a></li>
+                        <li><a href="">部活動</a></li>
+                        <li><a href="">年間スケジュール</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer-bottom">
+                <p><small>Copyright &copy; 2021 Shuri High School</small></p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
