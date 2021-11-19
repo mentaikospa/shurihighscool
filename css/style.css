@@ -87,6 +87,10 @@ header {
     margin-right: auto;
 }
 
+.header-top h1:hover {
+    opacity: 0.7;
+}
+
 .header-top .empty {
     width: 165px;
 }
@@ -139,29 +143,29 @@ header {
     align-items: center;
 }
 
-/* .header-bottom ul li {
+.header-bottom ul li {
     width: 192px;
     border-left: 1px solid #000;
 }
 
 .header-bottom ul li:last-child {
     border-right: 1px solid #000;
-} */
+}
 
-/* .header-bottom ul li:hover {
+.header-bottom ul li:hover {
     background-color: #f0b300;
-} */
+}
 
-/* .header-bottom ul li a:hover {
+.header-bottom ul li a:hover {
     color: #000;
-} */
+}
 
 .header-bottom ul a {
     text-decoration: none;
     color: #fff;
     font-size: 26px;
-    /* text-align: center;
-    line-height: 65px; */
+    text-align: center;
+    line-height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -362,6 +366,11 @@ footer .footer-top li a:hover {
 
 .news a {
     color: #000;
+    text-decoration: none;
+}
+
+.news a:hover {
+    text-decoration: underline;
 }
 
 .news .fa-file-pdf {
